@@ -1,5 +1,5 @@
 {
-  "name": "No framework webpack starter",
+  "name": "no-framework-webpack-starter",
   "version": "1.0.0",
   "description": "No framework webpack starter template",
   "main": "app.js",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/robertkarlsson/no-framework-webpack-starter.git"
   },
-  "author": "",
+  "author": "Robert Karlsson",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/robertkarlsson/no-framework-webpack-starter/issues"
