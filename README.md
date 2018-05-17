@@ -43,5 +43,6 @@ When using this in a new project, start with changing the following:
 1. $ npm install
 2. running local env: $ npm run start:dev
 3. build: npm run build:prod
+4. The build ends up in the bin folder. Copy paste the content here to the root of your server. Open index.html in this folder locally to check that everything works as expected.
 
 Local webpack config is found in webpack.config.js, production in webpack.prod.js. Should be good to go but can be configured any way you want it.
