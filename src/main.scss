@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+
+  p, h2, li, span {
+    font-size: 12px;
+
+    @media screen and (min-width: 1080px) {
+      font-size: 12px;
+    }
+
+    @media screen and (min-width: 1440px) {
+      font-size: 16px;
+    }
+  }
+}
