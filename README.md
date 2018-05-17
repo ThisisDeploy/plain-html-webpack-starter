@@ -1,6 +1,6 @@
-# Starter project for non-SPA pages using webpack
+# Starter project for non-SPA using webpack
 
-An extremely barebone starter project for when you just want to create a webpage the old way but still webpack, ES6 and autoprefixer for css issues.
+An extremely barebone starter project for when you just want to create a webpage the old way but still use webpack, ES6 and autoprefixer for common css issues.
 Includes support for Sass and translations, which can both be ignored by removing the few lines connected to it.
 
 ## Features
@@ -9,7 +9,7 @@ Includes support for Sass and translations, which can both be ignored by removin
 * Uses Sass with autoprefixer. See postcss.config for settings.
 * Includes normalize, can be removed by removing the import in app.js.
 
-### Short ducumentation of translation feature
+### Short documentation of translation feature
 * Based on queryparam lang, used like http://localhost:8080/?lang=se (toggle swedish translation)
 * Add more languages by adding more language files and load them in the language script. Check how its done for the current languages.
 * Mark elements with data-t attribute to set a translation key to the element. Used like:
