@@ -1,25 +1,16 @@
 <!doctype html>
 <html lang="">
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>About</title>
-      <meta name="description" content="About this page">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body style="display: none">
-      <nav>
-        <ul>
-          <li><a href="/" data-t="nav.home">Home</a></li>
-          <li class="active"><a href="/about.html" data-t="nav.about">About</a></li>
-          <li class="language">
-            <a href="/?lang=se" data-skip="true" data-t="translate.swedish"> sv </a>
-            <a href="/?lang=en" data-skip="true" data-t="translate.english"> en </a>
-          </li>
-        </ul>
-      </nav>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="About this page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body style="display: none">
+    <%= require('html-loader!./navigation.html') %>
     <main>
       <h1 data-t="about.title"> About </h1>
     </main>
+  </body>
 </html>

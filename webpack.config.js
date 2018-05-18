@@ -15,10 +15,13 @@ module.exports = {
     },
     plugins: [
       new HtmlWebpackPlugin({
+        title: 'No framework webpack home',
         template: 'src/index.html',
+        filename: 'index.html',
         inject: 'body',
       }),
       new HtmlWebpackPlugin({
+        title: 'No framework webpack about',
         template: 'src/about.html',
         filename: 'about.html',
         inject: 'body',

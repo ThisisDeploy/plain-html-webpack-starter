@@ -6,6 +6,7 @@ Includes support for Sass and translations, which can both be ignored by removin
 ## Features
 * Project has built in translation for supporting several languages. The script handling the translation feature can be found in src/app.js.
 * Webpack for local/prod. See "Running".
+* Partials by using html-loader in the templates. See how the menu is used in index.html and about.html for an example.
 * Uses Sass with autoprefixer. See postcss.config for settings.
 * Includes normalize, can be removed by removing the import in app.js.
 
