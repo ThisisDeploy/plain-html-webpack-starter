@@ -16,15 +16,29 @@ module.exports = {
     plugins: [
       new HtmlWebpackPlugin({
         title: 'No framework webpack home',
+        meta: {
+          description: 'Create non-spa pages using webpack - home'
+        },
         template: 'src/index.html',
         filename: 'index.html',
         inject: 'body',
+        googleAnalytics: {
+          trackingId: 'UA-XXXXX-Y',
+          pageViewOnLoad: false
+        }
       }),
       new HtmlWebpackPlugin({
         title: 'No framework webpack about',
+        meta: {
+          description: 'Create non-spa pages using webpack - about'
+        },
         template: 'src/about.html',
         filename: 'about.html',
         inject: 'body',
+        googleAnalytics: {
+          trackingId: 'UA-XXXXX-Y',
+          pageViewOnLoad: false
+        }
       }),
       extractSass
     ],
