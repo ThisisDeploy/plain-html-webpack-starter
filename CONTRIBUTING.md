@@ -1,8 +1,10 @@
 # Contributing to plain-html-webpack-starter
-Thank you for taking interest in contributing to this project!
+Thank you for taking interest in contributing to this project, we are happy yo have you here!
 
 Following is a small set of guidelines on how to contribute to this project.
 Feel free to suggest changes to this document as well, adding guidelines as needed.
+Remember that guidelines are not rules and therefore it's not a must to follow them.
+See them as help to get you started!
 
 ## Before you start
 This is currently a very small project and don't need much of an introduction if
@@ -27,9 +29,15 @@ Please read through the following section before adding a enhancement suggestion
 
 * Use a clear and descriptive title for the issue to identify the suggestion.
 * Describe the current behavior and explain which behavior you expected to see instead and why.
-* Explain why this enhancement would be useful to most plain-html-webpack-starter users
+* Explain why this enhancement would be useful to most plain-html-webpack-starter users.
 
 ### Pull Requests
+
+#### Local development
+1. Clone/Fork the repo.
+2. Run "npm install" in the root folder.
+3. Run "npm run start:dev" to start the dev server.
+
 Think about the following when writing your commit message:
 * Use the present tense ("Add feature", not "Added feature") and imperative mood ("Change image to", not "Changes image to")
 * Limit the first line to 72 characters or less
