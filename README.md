@@ -48,3 +48,7 @@ When using this in a new project, start with changing the following:
 4. The build ends up in the bin folder. Copy paste the content here to the root of your server. Open index.html in this folder locally to check that everything works as expected.
 
 Local webpack config is found in webpack.config.js, production in webpack.prod.js. Should be good to go but can be configured any way you want it.
+
+## Contributing
+We would love if you want to contribute to this project. Please see
+[contributing](CONTRIBUTING.md) and our [code of conduct](CODE_OF_CONDUCT.md).
